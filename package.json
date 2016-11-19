@@ -1,0 +1,31 @@
+{
+  "name": "scraph264",
+  "version": "1.0.0",
+  "description": "web-scraping app for h-264.ru publications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://IronArt@bitbucket.org/IronArt/scraph264.git"
+  },
+  "keywords": [
+    "web-scraping",
+    "h-264.ru"
+  ],
+  "author": "Artem Zhelonkin",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/IronArt/scraph264#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cllc": "0.0.9",
+    "fs": "0.0.2",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.6",
+    "mongojs": "^2.4.0",
+    "needle": "^1.1.0",
+    "tress": "^1.0.3",
+    "url": "^0.11.0"
+  }
+}
